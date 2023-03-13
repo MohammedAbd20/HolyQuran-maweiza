@@ -1,0 +1,68 @@
+.contact-home .sectionPhoto{
+    display: none;
+}
+.home{
+    background-image: url(https://i.ytimg.com/vi/B-QuDVAAKA4/maxresdefault.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.popHome{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0;
+    background-color: #032541ad;
+}
+.desc {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.6;
+}
+.desc h2{
+    transform: scale3d(0,0,0);
+    transition: 0.35s;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    margin:20px 0;
+
+}
+.button a{
+    position: relative;
+    width: 60%;
+    margin: 6px 0;
+    font-size: 20px;
+    padding: 18px;
+    transition: 0.3s;
+    transform: scale3d(0,0,0);
+}
+.button a:hover svg{
+    transition: 0.3s;
+    left: 6%;
+}
+
+.desc a svg{
+    position: absolute;
+    font-size: 21px;
+    top: 50%;
+    left: 12%;
+    transform: translateY(-50%);
+}
+@media only screen and (max-width: 600px) {
+    .home{
+        background-image: url("https://w0.peakpx.com/wallpaper/484/909/HD-wallpaper-mosque-ramadan-cami-clouds-mosque-ramadan-ramazan-serenity-spiritual-structure-sunset-worship.jpg");
+    }
+
+  }
+  @media only screen and (max-width: 1000px) {
+    .button a {
+        width: 70%;
+    }
+  }

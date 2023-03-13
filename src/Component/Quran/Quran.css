@@ -1,0 +1,62 @@
+
+.quran{
+    text-align: center;
+    background-image: url(https://cdn04.paltoday.ps/ar/uploads/images/5371848b1ff761f2b50a20bdb836db3b.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+h2{
+    font-family: 'Noto Nastaliq Urdu', serif;
+    color: var(--secondary);
+    padding: 20px;
+    margin: 20px 0 45px !important;
+}
+.generalDesc {
+    position: relative;
+    width: 100%;
+    margin: 110px auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin:35px auto;
+    width: 80%;
+}
+.form .btns{
+    padding: 15px;
+    margin-bottom: 13px;
+    transform: scale3d(0,0,0);
+    transition: 0.7s;
+}
+.quranContent .form .btns:hover{
+    color: var(--secondary) !important;
+}
+.QuranReading .form{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.radio{
+    position: absolute;
+    z-index: 5;
+    top: 85vh;
+    right: 50px;
+    width: 350px;
+    height: 90px;
+    padding: 8px;
+    background: red;
+}
+@media only screen and (max-width: 600px) {
+    .quran{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4e/%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%AE%D8%A7%D9%84%D8%AF%D9%8A.jpg);
+    }
+    .form{
+        width: 100%;
+    }
+    .quran .form{
+        width: 85%;
+    }
+  }

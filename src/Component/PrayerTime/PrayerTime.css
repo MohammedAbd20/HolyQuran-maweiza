@@ -1,0 +1,35 @@
+.PrayerContent .generalDesc,.PrayerContent h2{
+    margin-bottom: 60px !important;
+}
+.dateAndDay{
+    display: flex;
+    justify-content: space-between;
+    color: var(--secondary);
+    background: var(--primary);
+    border-radius: 37px;
+    padding: 15px 25px;
+    width: 60%;
+    margin: 0 auto;
+}
+.dateAndDay p {
+    margin-bottom: 0 !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .dateAndDay{
+        flex-direction: column;
+        width: 80%;
+        background: no-repeat;
+    }
+    .day{
+        background: var(--primary);
+        padding: 7px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .PrayerContent .generalDesc,.PrayerContent h2{
+        margin-bottom: 15px !important;
+    }
+  }

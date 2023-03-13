@@ -1,0 +1,23 @@
+.athkar .zekr{
+    padding-top: 32px;
+}
+.athkar .zekr span{
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    font-size: 13px;
+}
+.AudioAthkar{
+    background-color: #2175ba !important;
+    color: var(--primary) !important;
+}
+.athkar .popAll{
+    transform: translateX(100%);
+}
+.athkar .popAll .playerAudio{
+    width: 25px;
+    left: 15px;
+    top: 0;
+    color: var(--primary);
+    cursor: pointer;
+}

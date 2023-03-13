@@ -1,0 +1,87 @@
+.tafsier .nameSura{
+    background: var(--primary);
+    border-radius: 0 0 8px 8px;
+    padding: 0;
+    text-align: right;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+.nameSura li{
+    padding: 0.75rem;
+    cursor: pointer;
+    border-bottom: 1.5px solid;
+}
+.nameSura li:hover{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+.forms , .countResule{
+    width: 335px;
+    margin: 0 auto;
+}
+.forms .btns{
+    border: none;
+}
+.countResule {
+    margin: 32px auto;
+    background: var(--secondary);
+    border-radius: 5px;
+    font-weight: 700;
+    color: var(--primary);
+    transform: scale3d(0,0,0);
+    transition: 2s;
+}
+.countResule  p{
+    margin: 0;
+}
+.resultSearch  p{
+    margin: 20px;
+}
+.resultSearch{
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    text-align: right;
+    color: var(--primary);
+    line-height: 2.3;
+    transform: scale3d(0,0,0);
+    transition: 2s;
+    /* display: none; */
+}
+.option{
+    background-color: red;
+    margin: 6px;
+    padding: 15px;
+}
+.apology{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #032541de;
+    transition: 0.45s;
+    transform: scale3d(0,0,0);
+}
+.apology .textCenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    color: var(--secondary);
+    font-size: 23px;
+    font-weight: 800;
+}
+@media only screen and (max-width: 600px) {
+    .resultSearch {
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 339px){
+    .forms, .countResule {
+        width: 100%;
+    }
+  }

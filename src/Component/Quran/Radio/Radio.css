@@ -1,0 +1,40 @@
+.app-container {
+    width: 360px;
+    position: fixed;
+    top: 72%;
+    right: 0;
+    background: var(--secondary);
+    text-align: center;
+    padding: 15px;
+    z-index: 1000;
+    transition: 0.55s;
+    transform: translateX(100%);
+}
+.popActive{
+    transform: translateX(92%) !important;
+}
+.app-container p {
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: inherit;
+    color: #fff;
+}
+.app-container .icon{
+    position: absolute;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 6px;
+    top: 7px;
+}
+.audioComponent svg{
+    transition: 0.35s;
+}
+.audioComponent svg:hover{
+    cursor: pointer;
+    transition: 0.35s;
+    transform: scale(1.2);
+}

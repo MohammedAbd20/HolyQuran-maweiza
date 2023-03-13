@@ -1,0 +1,75 @@
+
+.Hadith .hadithContent{
+    margin-bottom: 20px;
+}
+.Hadith .generalDesc,.contact-us .generalDesc{
+    margin-bottom: 80px;
+}
+.Hadith .hadithConboxTextHadithtent form{
+    margin-bottom: 20px;
+}
+.boxTextHadith{
+    position: relative;
+    transform: scale3d(0,0,0);
+    transition: 0.55s;
+}
+.boxTextHadith .textHadith{
+    position: relative;
+    width: 75%;
+    padding: 65px 18px 6px;
+    margin: 0 auto;
+    background-color: #032541b3;   
+    border-radius: 3px;
+}
+.boxTextHadith .textHadith p{
+    color: var(--secondary);
+    line-height: 1.8;
+    padding: 8px;
+    font-weight: 500;
+}
+.dec-inc{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    width: 90%;
+    margin: 0 auto;
+    top: 65px;
+    right: 0%;
+    z-index: 5;
+}
+.inc,.dec{
+    padding: 0;
+}
+.inc svg,.dec svg{
+    font-size: 40px;
+}
+.counter{
+    color: var(--secondary);
+}
+.selected {
+    position: relative;
+    width: 295px !important;
+    margin: 0 auto;
+    margin-bottom: 7px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .boxTextHadith .textHadith {
+        width: 90%;
+    }
+    .dec-inc {
+        width: 85%;
+    }
+    .Hadith .generalDesc{
+        margin-bottom: 50px;
+    }
+    .dec-inc .btns {
+        background-color: inherit;
+        border: none !important;
+    }
+    .inc svg, .dec svg {
+        font-size: 40px;
+        color: var(--secondary);
+    }
+  }
