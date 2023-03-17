@@ -1,0 +1,228 @@
+.QuranReading,.quran-audio,.ayatAlsujud,.tafsier,.Hadith,.contact-us,.athkar,.gazaReaderVideos,.allSuraPage{
+    text-align: center;
+    background: linear-gradient(to bottom right,var(--primary), var(--secondary));
+    min-height: 100vh;
+}
+.someForm{
+    position: relative;
+}
+.searchSura{
+    width: 100%;
+}
+.selectSura{
+    width: 100%;
+    margin: 0 auto 15px;
+    direction: ltr;
+}
+.selectSura::placeholder{
+    text-align: right;
+    direction: rtl;
+}
+.sura{
+    margin: 10px;
+    padding: 10px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    background: var(--primary);
+    border-radius: 7px;
+    color: var(--secondary);
+    width: 160px;
+    line-height: 1.79;
+    cursor: pointer;
+    transition: 0.35s;
+    text-decoration: none;
+    transform: scale3d(0,0,0);
+}
+.suraSearch{
+    display: block;
+    width: inherit;
+    border-bottom: 2px solid;
+}
+.sura p{
+    margin-bottom: 0;
+} 
+.return{
+    margin: 8px 0;
+    position: absolute;
+    padding: 2px 12px;
+    top: -40px;
+    right: 0px;
+    border-radius: 15px;
+    background: var(--primary);
+    font-size: 15px;
+    color: var(--secondary);
+    cursor: pointer;
+}
+.sura:hover,.return:hover{
+    transition: 0.3s;
+    transform: scale(1.04);
+    box-shadow: 0 0 1px 2px var(--primary);
+    color: var(--primary);
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+.sura:hover p{
+    color: var(--primary);
+}
+
+
+
+  /* start page Reading  */
+
+.pageReading{
+    background-color: var(--primary);
+    padding: 100px 0;
+    min-height: 100vh;
+}
+.pageReading .return{
+    background-color: var(--secondary);
+    color: var(--primary);
+    right: -12px;
+    top: -50px;
+}
+
+.pageReading .return:hover{
+    background-color: var(--primary);
+    box-shadow: 0 0 1px 2px var(--secondary);
+    color: var(--secondary);
+}
+.pageReading .allSura{
+    position: relative;
+    width: 50%;
+    top: 40px;
+    background-color: var(--secondary);
+    margin: 15px auto 30px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px;
+    transition: 0.35s;
+    transform: scaleY(0);
+    transform-origin:top ;
+}
+.pageReading .allSura p{
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid;
+    padding: 8px 5px;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: var(--primary);
+    transition: 0.35s;
+    transform: scale3d(0,0,0)
+}
+.pageReading .allSura p.text{
+    padding: 18px;
+}
+.text .spanVoice{
+    position: absolute;
+    bottom: 0px;
+    left: -5px;
+    cursor: pointer;
+    font-size: 18px;
+    transform: scale(0);
+}
+
+.text:hover .spanVoice,.paragraphAudio .spanVoice{
+    transform: scale(1);
+}
+.text .spanVoice:hover{
+    transform: scale(1)
+}
+.activeColor{
+    background-color: var(--primary);
+    color: var(--secondary) !important;
+}
+
+
+.nameSura {
+    background-color: var(--primary);
+    color: var(--secondary) !important;
+    padding-left: 0;
+    max-height: 400px;
+    overflow: auto;
+}
+.QuranReading .nameSura{
+    max-height: 200px;
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+}
+.fontSize{
+    position: absolute;
+    top: -33px;
+    left: 0;
+    padding: 0 5px 0 0;
+}
+.toPagesura{
+    right: 50px !important;
+    width: 125px;
+    text-decoration: none;
+}
+.QuranAudioSura .toPagesura{
+    display: none;
+}
+/* start pageSura  */
+.pageReading .allSura .img img{
+    width: 100%;
+}
+.pageReading .allSura .img svg{
+    position: absolute;
+    top: 50%;
+    left: -35px;
+    font-size: 35px;
+    transform: translateY(-50%);
+    color: var(--secondary);
+    z-index: 1;
+}
+.pageReading .allSura .img .right{
+    right: -35px;
+}
+.SuraBage{
+    position: absolute;
+    top: 46%;
+    width: 125%;
+    left: 50%;
+    transform: translate(120%, -50%);
+    transition: 0.45s all ease-in-out;
+}
+.closBageSura{
+    position: absolute;
+    right: 0;
+    top: -37px;
+    width: 43px;
+    height: 46px;
+}
+.closBageSura svg {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    font-size: 27px !important;
+}
+
+@media only screen and (max-width: 769px) {
+    .SuraBageActive{
+        transform: translate(-50%, -50%);
+    }
+} 
+@media only screen and (max-width: 600px) {
+    .sura{
+        margin: 4px auto;
+    }
+    .someForm{
+        width: 100%;
+    }
+    .form-control,.nameSura{
+        width: 85% !important;
+        margin: 0 auto !important;
+        padding: 0;
+    }
+    .selectSura{
+        width: 85%;
+    }
+    
+  /* start page Reading  */
+    .pageReading .allSura{
+        width: 85%;
+    }
+  } 

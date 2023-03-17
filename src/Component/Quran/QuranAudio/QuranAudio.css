@@ -1,0 +1,53 @@
+
+.quran-audio .sura,.ayatAlsujud .sura,.athkar .sura{
+        width: 100%;
+        margin: 7px auto;
+}
+.QuranAudioSura .search{
+    display: none;
+}
+.quran-audio .nameSura .sura,
+.athkar .nameSura .sura{
+    display: block;
+    border-bottom: 2px solid;
+}
+.popAll{
+    width: 360px;
+    position: fixed;
+    top: 72%;
+    right: 0;
+    background: var(--secondary);
+    text-align: center;
+    padding: 15px;
+    z-index: 1000;
+    transition: 0.55s;
+}
+.popActive{
+    transform: translateX(92%);
+}
+.popAll .playerAudio{
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.closeAudio{
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 7px;
+    color: var(--primary);
+}
+@media only screen and (max-width: 600px) {
+    .quran-audio .sura,.ayatAlsujud .sura, .athkar .sura{
+        width: 85%;
+    }
+    .quran-audio .return,.ayatAlsujud .return{
+        right: 20px;
+    }
+    .quran-audio .nameSura .sura, .athkar .nameSura .sura{
+        width: 100%;
+    }
+  } 

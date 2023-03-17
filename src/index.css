@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* font */
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500&family=Lalezar&family=Lato:wght@300;400;900&family=Noto+Nastaliq+Urdu:wght@500&family=Open+Sans:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;600;700&family=Tajawal:wght@300;400;700&display=swap');
+  body{
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+  }
+  :root{
+    --primary:#032541;
+    --secondary: #00c2c2 !important;
+    --white:#fff;
+  }
+  .container{
+    margin: 0 auto;
+    padding: 5px 15px;
+  }
+  a{
+    text-decoration: none;
+  }
+  @media (min-width:768px){
+    .container{
+      width: 750px;
+    }
+  }
+  @media (min-width:992px){
+    .container{
+      width: 970px;
+    }
+  }
+  @media (min-width:1200){
+    .container{
+      width: 1170px;
+    }
+  }
+  *:before,
+  *:after{
+    box-sizing: border-box;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .btns{
+    padding: 10px 15px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    line-height: 0.6;
+    text-decoration: none;
+  }
+  .btns:hover{
+    background-color: var(--primary);
+    cursor: pointer;
+    color: var(--secondary);
+    box-shadow: 0 0 1px 2px var(--secondary);
+  }
+  .sura:hover{
+    background-color: var(--secondary);
+    cursor: pointer;
+    color: var(--primary);
+    box-shadow: 0 0 1px 2px var(--primary);
+  }
+  .sura:hover span span{
+    color: #002d53;
+  }
+  input:focus{
+    outline: none;
+  }
+  svg{
+    transition:0.35s;
+  }

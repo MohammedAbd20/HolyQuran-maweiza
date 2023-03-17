@@ -1,0 +1,20 @@
+.allAyat{
+    display: flex;
+    flex-direction: column;
+}
+.ayatAlsujud .sura{
+    position: relative;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.ayatAlsujud .sura .title{
+    position: absolute;
+    top: 5px;
+    font-size: 12px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    color: #42a0a0;
+}
+
