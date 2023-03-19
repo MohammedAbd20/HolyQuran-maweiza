@@ -10,22 +10,24 @@
     margin-right: 0 !important;
     font-family: 'Noto Nastaliq Urdu', serif;
     font-size: 25px !important;
+    display: flex;
+    align-items: center;
 }
 .navbar .imgNav{
     width: 45px;
     border-radius: 50%;
     background-color: #fff;
 }
-.navbar .navbar-brand span{
+.navbar .navbar-brand .imgPop{
     position: relative;
     margin-left: 10px;
 }
-.navbar .navbar-brand span p{
+.navbar .navbar-brand .imgPop p{
     position: absolute;
     width: 45px;
     height: 45px;
     left: 0;
-    top: 30%;
+    top: 5px;
     background-color: #00c2c27a;
     margin-bottom: 0;
     border-radius: 50%;

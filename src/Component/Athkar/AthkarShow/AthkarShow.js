@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 import { athkar } from "../../JSON/athkar";
 import "./AthkarShow.css"
 function AthkarShow() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    })
     const [eys, setEys] = useState(true)
     const { id } = useParams()
     setTimeout(() => {

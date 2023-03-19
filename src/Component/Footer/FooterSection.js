@@ -9,7 +9,13 @@ import {
 } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import './FooterSection.css'
-
+function handleScroll(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    })
+    document.querySelector(".par").classList.remove("span")
+}
 function FooterSection() {
     return (
         <>
@@ -33,9 +39,10 @@ function FooterSection() {
 
                                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                                     <h6 className="text-uppercase mb-4 font-weight-bold">---- </h6>
-                                    <p><NavLink className="a" to="/">الصفحة الرئيسية</NavLink></p>
-                                    <p><NavLink className="a" to="/quran">قرآن</NavLink></p>
-                                    <p><NavLink className="a" to="/hadith">أحاديث</NavLink></p>
+                                    <p><NavLink onClick={()=>handleScroll()} className="a" to="/">الصفحة الرئيسية</NavLink></p>
+                                    <p><NavLink onClick={()=>handleScroll()} className="a" to="/quran">قرآن</NavLink></p>
+                                    <p><NavLink onClick={()=>handleScroll()} className="a" to="/hadith">أحاديث</NavLink></p>
+                                    <p><NavLink onClick={()=>handleScroll()} className="a" to="/athkar">أذكاري</NavLink></p>
                                 </div>
 
                                 <hr className="w-100 clearfix d-md-none" />

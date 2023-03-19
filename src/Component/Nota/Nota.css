@@ -11,18 +11,19 @@
     font-weight: bold;
     border: 2px solid var(--primary);
     border-right: 0;
+    z-index: 5;
 }
 .notaText {
     position: relative;
     padding: 15px;
 }
-.notaText .iconClose{
+.iconClose{
     position: absolute;
     top: -5px;
     left: -5px;
     text-align: center;
 }
-.notaText .iconClose:hover,.app-container .closeRadio:hover{
+.iconClose:hover,.app-container .closeRadio:hover{
     transform: scale(1.3);
     cursor: pointer;
 }

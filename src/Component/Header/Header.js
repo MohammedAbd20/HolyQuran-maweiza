@@ -8,17 +8,21 @@ function Header() {
     function HandlNav(e) {
         // console.log(document.querySelector(".show").style);
         document.getElementsByClassName("navbar-collapse")[0].classList.remove("show")
-
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+            });
+            document.querySelector(".par").classList.remove("span")
     }
     return (
         <>
             <Navbar expand="lg">
                 <Container>
                     <Link className='navbar-brand' to="/">
-                        <span>
+                        <div className='imgPop'>
                             <p></p>
                             <img className='imgNav' src='https://i.scdn.co/image/ab67616d00001e026b604ad5482e8dae34a9a5ec' />
-                        </span>
+                        </div>
                         موعظة
                     </Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

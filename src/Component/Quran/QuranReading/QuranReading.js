@@ -46,7 +46,7 @@ function QuranReading(props) {
                                     names.name.includes(nameSura) &&
                                         nameSura !== "" ? (
                                         <Link
-                                            to={props.props.to == "quranAudio" ? "" : `/pageReading/${names.index}`}
+                                            to={props.props.to == "readers" ? "" : `/pageReading/${names.index}`}
                                             className="sura suraSearch"
                                             key={names.index}
                                             onClick={() => {

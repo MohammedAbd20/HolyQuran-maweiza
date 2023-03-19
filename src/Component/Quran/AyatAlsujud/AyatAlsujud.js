@@ -9,6 +9,10 @@ import './AyatAlsujud.css'
 
 
 function AyatAlsujud() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    })
     const dispatch = useDispatch()
     setTimeout(() => {
         document.querySelectorAll(".sura").forEach((e) => {

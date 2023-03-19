@@ -1,0 +1,28 @@
+.almost{
+    position: fixed;
+    width: 100%;
+    top: 70px;
+    z-index: 1;
+}
+.almost p{
+    position: absolute;
+    padding: 18px 12px;
+    background: #00c2c2e6;
+    color: var(--primary);
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0 5px 6px -4px var(--secondary);
+}
+.almost p span{
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+.almost .span{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .almost p{
+        width: 310px;
+    }
+  }

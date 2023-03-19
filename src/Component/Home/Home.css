@@ -55,6 +55,12 @@
     left: 12%;
     transform: translateY(-50%);
 }
+.contact-home .footer .container {
+    display: block;
+}
+.contact-home .footer .foterEnd{
+    display: none;
+}
 @media only screen and (max-width: 600px) {
     .home{
         background-image: url("https://w0.peakpx.com/wallpaper/484/909/HD-wallpaper-mosque-ramadan-cami-clouds-mosque-ramadan-ramazan-serenity-spiritual-structure-sunset-worship.jpg");

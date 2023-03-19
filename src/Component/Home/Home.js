@@ -4,6 +4,7 @@ import { FaAngleLeft, FaBeer } from 'react-icons/fa';
 import './Home.css'
 import ContactUs from '../Contact/ContactUs';
 import { RadioJson } from '../JSON/radioJson';
+import FooterSection from '../Footer/FooterSection';
 
 function Home() {
     window.addEventListener('scroll', () => {
@@ -43,6 +44,7 @@ function Home() {
                 </Container>
             </div>
             <ContactUs />
+            <FooterSection/>
         </div>
     )
 }

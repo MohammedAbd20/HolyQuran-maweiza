@@ -39,6 +39,9 @@
 .btn-primary{
     border: 1.5px solid var(--secondary) !important;
 }
+footer .container{
+    display: none;
+}
   @media only screen and (max-width: 1000px) {
     .link-social a {
         width: 100%;

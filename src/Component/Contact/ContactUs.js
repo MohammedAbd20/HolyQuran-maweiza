@@ -20,7 +20,7 @@ function ContactUs() {
                             <div className="myPhoto">
                                 <div className="img">
                                     <p></p>
-                                    <img src='https://scontent.fgza6-1.fna.fbcdn.net/v/t39.30808-6/332266475_1258049941726968_8295901580559264275_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=HXUwVA-IjN4AX_Zwd4j&_nc_ht=scontent.fgza6-1.fna&oh=00_AfAHLrHGvfMoCWZsqZ-5m1wo-hYotGjsvxOalBxSKdF7Rw&oe=64122DDA' />
+                                    <img src='image/photo3.jpg' />
                                 </div>
                                 <div className="textPhoto">
                                     <p>يمتلك محمد عبدالرحمن مهارات قوية في تصميم وبرمجة المواقع الإلكترونية باستخدام اللغات البرمجية المختلفة مثل HTML، CSS، JavaScript، وغيرها كما ويمكنه التعامل مع أحد أهم مكتبات JavaScript وهي react js.</p>
@@ -32,13 +32,13 @@ function ContactUs() {
                                 </div>
                                 <div className="img">
                                     <p></p>
-                                    <img src='https://scontent.fgza6-1.fna.fbcdn.net/v/t39.30808-6/320333393_1129112641128455_7328420961133987882_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=J5z9pK8jOlIAX9oiA_t&_nc_ht=scontent.fgza6-1.fna&oh=00_AfAvc5IlflF0zIPmjsBKtTaXVQ3EBXCzuXvBmYYQ63_jmA&oe=64116233' />
+                                    <img src='image/photo2.jpg' />
                                 </div>
                             </div>
                             <div className="myPhoto">
                                 <div className="img">
                                     <p></p>
-                                    <img src='https://scontent.fgza6-1.fna.fbcdn.net/v/t39.30808-6/332547121_900359704538933_8234604548326192594_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=UNIyMtLlyYIAX-phStX&_nc_ht=scontent.fgza6-1.fna&oh=00_AfBrMt-rKnyEuE0QcJxQUgD66q5KHjO9Xin64p8sRVsgTw&oe=64110BA3' />
+                                    <img src='image/photo1.jfif' />
                                 </div>
                                 <div className="textPhoto">
                                     <p>ويتطلب عمل مبرمج المواقع المهارات التحليلية والإبداعية والتواصل الجيد، بالإضافة إلى القدرة على العمل الجماعي والتعلم المستمر لمواكبة التقنيات الجديدة وتحسين مهاراته في مجال تصميم وبرمجة المواقع.</p>

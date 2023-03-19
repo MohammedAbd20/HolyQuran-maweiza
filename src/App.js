@@ -20,17 +20,21 @@ import QuranReading from './Component/Quran/QuranReading/QuranReading';
 import Radio from './Component/Quran/Radio/Radio';
 import ScrollTop from './Component/ScrollTop/ScrollTop';
 import BageSura from './Component/Quran/QuranReading/pageSura';
+import Almost from './Component/Almost/Almost';
 function App() {
   // console.log(suraName);
   setInterval(()=>{
     document.querySelector(".nota").style.transform = "translateX(0%)"
+    
   },60000)
   setInterval(()=>{
     document.querySelector(".nota").style.transform = "translateX(100%)"
   },67000)
+
   return (
     <div className="App">
       <Header/>
+      <Almost/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/quran' element={<Quran/>}/>
